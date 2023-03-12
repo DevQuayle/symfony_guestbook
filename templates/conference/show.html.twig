@@ -7,7 +7,7 @@
 
 
     {% if comments|length > 0 %}
-        <div>There are {{ comments|length }}</div>
+        <div>There are {{ comments|length }} comments</div>
 
         {% for comment in comments %}
             {% if comment.photofilename %}
